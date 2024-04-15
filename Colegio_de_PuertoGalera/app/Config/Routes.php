@@ -46,5 +46,12 @@ $routes->post('/profile/uploadImage', 'ProfileController::uploadImage');
 $routes->get('/teacherform', 'TeacherController::teacher');
 $routes->post('/addteacher', 'TeacherController::insert');
 
+//email code
+// $routes->get('/verify-email/(:segment)', 'VerificationController::verifyEmail/$1');
+// app/Config/Routes.php
+
+$routes->get('/verification_form', 'VerificationController::index');
+$routes->post('/verify', 'VerificationController::verify');
+$routes->get('/login-register/signin', 'SigninController::index');
 
 

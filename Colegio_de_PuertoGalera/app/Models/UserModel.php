@@ -13,7 +13,7 @@ class UserModel extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['name','email','password', 'created_at', 'profile_picture'];
+    protected $allowedFields    = ['name', 'email', 'password','user_type', 'created_at', 'profile_picture', 'verification_code', 'verified', 'is_super_admin', 'status'];
 
     // Dates
     protected $useTimestamps = false;
@@ -38,4 +38,25 @@ class UserModel extends Model
     protected $afterFind      = [];
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
+
+    // Method to check if email is verified
+    public function isEmailVerified($email)
+    {
+        $user = $this->where('email', $email)->first();
+        if ($user && $user['verified'] == true) {
+            return true;
+        }
+        return false;
+    }
+    public function updateStatus($userId, $status)
+{
+    $data = ['status' => $status];
+    $this->db->where('id', $userId);
+    $this->db->update('users', $data);
+}
+
+public function getStatus($userId)
+{
+    return $this->db->get_where('users', ['id' => $userId])->row('status');
+}
 }

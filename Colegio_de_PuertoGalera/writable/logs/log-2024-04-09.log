@@ -1,0 +1,641 @@
+CRITICAL - 2024-04-09 02:50:22 --> Invalid file: "auth/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/register.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('auth/register', [], true)
+ 3 APPPATH\Controllers\AuthController.php(41): view('auth/register', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuthController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 02:53:13 --> Invalid file: "/register.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/register.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('/register', [], true)
+ 3 APPPATH\Controllers\AuthController.php(41): view('/register', [])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\AuthController->register()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 03:56:15 --> Undefined variable $verification_code
+in APPPATH\Views\login-register\signup.php on line 154.
+ 1 APPPATH\Views\login-register\signup.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $verification_code', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\signup.php', 154)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\signup.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/signup', [], true)
+ 5 APPPATH\Controllers\SignupController.php(14): view('login-register/signup', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 03:56:19 --> Undefined variable $verification_code
+in APPPATH\Views\login-register\signup.php on line 154.
+ 1 APPPATH\Views\login-register\signup.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $verification_code', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\signup.php', 154)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\signup.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/signup', [], true)
+ 5 APPPATH\Controllers\SignupController.php(14): view('login-register/signup', [])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 04:03:15 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update(null, [])
+ 3 APPPATH\Controllers\VerificationController.php(17): CodeIgniter\Model->update()
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VerificationController->verifyEmail('afc8a8bc7a9c25cd7902c1d285ec2354')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VerificationController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 04:05:24 --> Undefined array key "verified"
+in APPPATH\Controllers\SigninController.php on line 29.
+ 1 APPPATH\Controllers\SigninController.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "verified"', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Controllers\\SigninController.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->loginAuth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 04:24:51 --> Undefined variable $verification_code
+in APPPATH\Views\login-register\signup.php on line 154.
+ 1 APPPATH\Views\login-register\signup.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $verification_code', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\signup.php', 154)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\signup.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/signup', [], true)
+ 5 APPPATH\Controllers\SignupController.php(50): view('login-register/signup', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 04:25:06 --> Undefined variable $verification_code
+in APPPATH\Views\login-register\signup.php on line 154.
+ 1 APPPATH\Views\login-register\signup.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $verification_code', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\signup.php', 154)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\signup.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/signup', [], true)
+ 5 APPPATH\Controllers\SignupController.php(50): view('login-register/signup', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 05:16:36 --> Undefined variable $rules
+in APPPATH\Controllers\SignupController.php on line 23.
+ 1 APPPATH\Controllers\SignupController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rules', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Controllers\\SignupController.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 05:17:25 --> Call to undefined method App\Controllers\SignupController::sendVerificationEmail()
+in APPPATH\Controllers\SignupController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 05:17:51 --> Undefined variable $rules
+in APPPATH\Controllers\SignupController.php on line 23.
+ 1 APPPATH\Controllers\SignupController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rules', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Controllers\\SignupController.php', 23)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 05:18:26 --> Unclosed '{' on line 9
+in APPPATH\Controllers\SignupController.php on line 51.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Controllers\\SignupController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\SignupController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\SignupController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\SignupController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 05:20:19 --> Call to undefined method App\Controllers\SignupController::sendVerificationEmail()
+in APPPATH\Controllers\SignupController.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 15:16:46 --> Invalid file: "verification.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('verification.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('verification', [], true)
+ 3 APPPATH\Controllers\VerificationController.php(12): view('verification')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VerificationController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VerificationController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 15:17:47 --> Invalid file: "verify.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('verify.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('verify', [], true)
+ 3 APPPATH\Controllers\VerificationController.php(12): view('verify')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VerificationController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VerificationController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 15:27:00 --> Undefined variable $email
+in APPPATH\Views\login-register\verify.php on line 60.
+ 1 APPPATH\Views\login-register\verify.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $email', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\verify.php', 60)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\verify.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/verify', [], true)
+ 5 APPPATH\Controllers\VerificationController.php(12): view('login-register/verify')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VerificationController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VerificationController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 15:31:58 --> Undefined variable $email
+in APPPATH\Views\login-register\verify.php on line 60.
+ 1 APPPATH\Views\login-register\verify.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $email', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\verify.php', 60)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\verify.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/verify', [], true)
+ 5 APPPATH\Controllers\VerificationController.php(12): view('login-register/verify')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VerificationController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VerificationController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 15:35:36 --> Undefined variable $email
+in APPPATH\Views\login-register\verify.php on line 62.
+ 1 APPPATH\Views\login-register\verify.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $email', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\verify.php', 62)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\verify.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/verify', [], true)
+ 5 APPPATH\Controllers\VerificationController.php(12): view('login-register/verify')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VerificationController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VerificationController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 15:35:38 --> Undefined variable $email
+in APPPATH\Views\login-register\verify.php on line 62.
+ 1 APPPATH\Views\login-register\verify.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $email', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\verify.php', 62)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\verify.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/verify', [], true)
+ 5 APPPATH\Controllers\VerificationController.php(12): view('login-register/verify')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VerificationController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VerificationController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 15:35:49 --> Undefined variable $email
+in APPPATH\Views\login-register\verify.php on line 62.
+ 1 APPPATH\Views\login-register\verify.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $email', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\verify.php', 62)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\verify.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/verify', [], true)
+ 5 APPPATH\Controllers\VerificationController.php(12): view('login-register/verify')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VerificationController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VerificationController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 15:36:36 --> Undefined variable $email
+in APPPATH\Views\login-register\verify.php on line 62.
+ 1 APPPATH\Views\login-register\verify.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $email', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\verify.php', 62)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\verify.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/verify', [], true)
+ 5 APPPATH\Controllers\VerificationController.php(12): view('login-register/verify')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VerificationController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VerificationController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 15:36:54 --> Undefined variable $email
+in APPPATH\Views\login-register\verify.php on line 62.
+ 1 APPPATH\Views\login-register\verify.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $email', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\verify.php', 62)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\verify.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/verify', [], true)
+ 5 APPPATH\Controllers\VerificationController.php(12): view('login-register/verify')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VerificationController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VerificationController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 16:02:16 --> Undefined variable $validation
+in APPPATH\Controllers\SignupController.php on line 26.
+ 1 APPPATH\Controllers\SignupController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Controllers\\SignupController.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+ERROR - 2024-04-09 16:17:43 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.example.com failed: No such host is known.  in C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\laragon\\www\\...', 1888)
+#1 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1888): fsockopen('ssl://smtp.exam...', 465, NULL, NULL, 30)
+#2 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\SignupController.php(70): CodeIgniter\Email\Email->send()
+#6 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\SignupController.php(50): App\Controllers\SignupController->sendVerificationEmail('rustomliquigan2...', '66156a27a1df5')
+#7 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(919): App\Controllers\SignupController->store()
+#8 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#9 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Colegio_de_PuertoGalera\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Colegio_de_PuertoGalera\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+ERROR - 2024-04-09 16:17:43 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-04-09 16:17:43 --> 
+ERROR - 2024-04-09 16:19:50 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.example.com failed: No such host is known.  in C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\laragon\\www\\...', 1888)
+#1 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1888): fsockopen('ssl://smtp.exam...', 465, NULL, NULL, 30)
+#2 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\SignupController.php(70): CodeIgniter\Email\Email->send()
+#6 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\SignupController.php(50): App\Controllers\SignupController->sendVerificationEmail('rustomliquigan2...', '66156aa62220a')
+#7 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(919): App\Controllers\SignupController->store()
+#8 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#9 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Colegio_de_PuertoGalera\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Colegio_de_PuertoGalera\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+ERROR - 2024-04-09 16:19:50 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-04-09 16:19:50 --> 
+CRITICAL - 2024-04-09 16:32:58 --> Invalid file: "signup.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('signup', [], true)
+ 3 APPPATH\Controllers\SignupController.php(35): view('signup', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->store()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 16:34:29 --> Class "App\Controllers\Time" not found
+in APPPATH\Controllers\SignupController.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 16:35:32 --> Class "App\Controllers\Time" not found
+in APPPATH\Controllers\SignupController.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 16:39:41 --> Invalid file: "verification.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('verification.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('verification', [], true)
+ 3 APPPATH\Controllers\VerificationController.php(12): view('verification')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VerificationController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VerificationController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 16:52:05 --> Invalid file: "signup.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('signup', [], true)
+ 3 APPPATH\Controllers\SignupController.php(35): view('signup', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->store()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 16:56:17 --> Invalid file: "signup.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('signup', [], true)
+ 3 APPPATH\Controllers\SignupController.php(35): view('signup', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->store()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 16:56:30 --> Invalid file: "signup.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('signup', [], true)
+ 3 APPPATH\Controllers\SignupController.php(35): view('signup', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->store()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 16:57:45 --> Call to undefined function set_value()
+in APPPATH\Views\login-register\signup.php on line 109.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/signup', [], true)
+ 4 APPPATH\Controllers\SignupController.php(35): view('login-register/signup', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 16:58:45 --> Call to undefined function set_value()
+in APPPATH\Views\login-register\signup.php on line 109.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/signup', [], true)
+ 4 APPPATH\Controllers\SignupController.php(35): view('login-register/signup', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 16:59:32 --> Call to undefined function set_value()
+in APPPATH\Views\login-register\signup.php on line 109.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/signup', [], true)
+ 4 APPPATH\Controllers\SignupController.php(35): view('login-register/signup', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 17:02:05 --> Call to undefined function set_value()
+in APPPATH\Views\login-register\signup.php on line 109.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/signup', [], true)
+ 4 APPPATH\Controllers\SignupController.php(35): view('login-register/signup', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 17:03:27 --> Call to undefined function set_value()
+in APPPATH\Views\login-register\signup.php on line 109.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/signup', [], true)
+ 4 APPPATH\Controllers\SignupController.php(35): view('login-register/signup', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 17:06:09 --> Call to undefined function set_value()
+in APPPATH\Views\login-register\signup.php on line 109.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/signup', [], true)
+ 4 APPPATH\Controllers\SignupController.php(35): view('login-register/signup', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 17:07:24 --> Call to undefined function set_value()
+in APPPATH\Views\login-register\signup.php on line 109.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/signup', [], true)
+ 4 APPPATH\Controllers\SignupController.php(35): view('login-register/signup', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 17:07:45 --> Call to undefined function set_value()
+in APPPATH\Views\login-register\signup.php on line 109.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/signup', [], true)
+ 4 APPPATH\Controllers\SignupController.php(35): view('login-register/signup', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 17:09:36 --> Class "App\Controllers\Time" not found
+in APPPATH\Controllers\SignupController.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 17:15:34 --> Class "App\Controllers\Time" not found
+in APPPATH\Controllers\SignupController.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 17:15:44 --> Class "App\Controllers\Time" not found
+in APPPATH\Controllers\SignupController.php on line 37.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 17:16:06 --> Invalid file: "signup.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('signup', [], true)
+ 3 APPPATH\Controllers\SignupController.php(29): view('signup', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->store()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+ERROR - 2024-04-09 17:20:31 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.example.com failed: No such host is known.  in C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\laragon\\www\\...', 1888)
+#1 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1888): fsockopen('ssl://smtp.exam...', 465, NULL, NULL, 30)
+#2 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\SignupController.php(42): CodeIgniter\Email\Email->send()
+#6 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(919): App\Controllers\SignupController->store()
+#7 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#8 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Colegio_de_PuertoGalera\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Colegio_de_PuertoGalera\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+ERROR - 2024-04-09 17:20:31 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-04-09 17:20:31 --> 
+CRITICAL - 2024-04-09 17:22:53 --> Invalid file: "signup.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('signup', [], true)
+ 3 APPPATH\Controllers\SignupController.php(28): view('signup', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->store()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 17:23:30 --> Invalid file: "signup.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('signup', [], true)
+ 3 APPPATH\Controllers\SignupController.php(28): view('signup', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->store()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+ERROR - 2024-04-09 17:23:49 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.example.com failed: No such host is known.  in C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\laragon\\www\\...', 1888)
+#1 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1888): fsockopen('ssl://smtp.exam...', 465, NULL, NULL, 30)
+#2 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\SignupController.php(42): CodeIgniter\Email\Email->send()
+#6 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(919): App\Controllers\SignupController->store()
+#7 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#8 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Colegio_de_PuertoGalera\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Colegio_de_PuertoGalera\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+ERROR - 2024-04-09 17:23:49 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-04-09 17:23:49 --> 
+ERROR - 2024-04-09 17:24:09 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.example.com failed: No such host is known.  in C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\laragon\\www\\...', 1888)
+#1 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1888): fsockopen('ssl://smtp.exam...', 465, NULL, NULL, 30)
+#2 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\SignupController.php(42): CodeIgniter\Email\Email->send()
+#6 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(919): App\Controllers\SignupController->store()
+#7 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#8 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Colegio_de_PuertoGalera\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Colegio_de_PuertoGalera\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+ERROR - 2024-04-09 17:24:09 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-04-09 17:24:09 --> 
+ERROR - 2024-04-09 17:37:24 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.example.com failed: No such host is known.  in C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\laragon\\www\\...', 1888)
+#1 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1888): fsockopen('ssl://smtp.exam...', 465, NULL, NULL, 30)
+#2 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\SignupController.php(42): CodeIgniter\Email\Email->send()
+#6 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(919): App\Controllers\SignupController->store()
+#7 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#8 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Colegio_de_PuertoGalera\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Colegio_de_PuertoGalera\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+ERROR - 2024-04-09 17:37:24 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-04-09 17:37:24 --> 
+ERROR - 2024-04-09 17:38:52 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.example.com failed: No such host is known.  in C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\laragon\\www\\...', 1888)
+#1 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1888): fsockopen('ssl://smtp.exam...', 465, NULL, NULL, 30)
+#2 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\SignupController.php(42): CodeIgniter\Email\Email->send()
+#6 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(919): App\Controllers\SignupController->store()
+#7 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#8 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\Colegio_de_PuertoGalera\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\laragon\www\Colegio_de_PuertoGalera\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#11 {main}
+ERROR - 2024-04-09 17:38:52 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-04-09 17:38:52 --> 
+CRITICAL - 2024-04-09 17:44:47 --> Call to undefined function set_value()
+in APPPATH\Views\login-register\signup.php on line 109.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/signup', [], true)
+ 4 APPPATH\Controllers\SignupController.php(35): view('login-register/signup', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 17:45:11 --> Invalid file: "signup.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('signup', [], true)
+ 3 APPPATH\Controllers\SignupController.php(35): view('signup', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->store()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 17:45:32 --> Invalid file: "signup.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('signup', [], true)
+ 3 APPPATH\Controllers\SignupController.php(35): view('signup', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->store()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 17:45:44 --> Invalid file: "signup.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('signup.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('signup', [], true)
+ 3 APPPATH\Controllers\SignupController.php(35): view('signup', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->store()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-09 17:51:35 --> strpos(): Argument #1 ($haystack) must be of type string, CodeIgniter\Email\Email given
+in SYSTEMPATH\Email\Email.php on line 739.
+ 1 SYSTEMPATH\Email\Email.php(739): strpos(Object(CodeIgniter\Email\Email), ',')
+ 2 SYSTEMPATH\Email\Email.php(552): CodeIgniter\Email\Email->stringToArray(Object(CodeIgniter\Email\Email))
+ 3 APPPATH\Controllers\SignupController.php(71): CodeIgniter\Email\Email->setTo(Object(CodeIgniter\Email\Email))
+ 4 APPPATH\Controllers\SignupController.php(54): App\Controllers\SignupController->sendVerificationEmail(Object(CodeIgniter\Email\Email), '6615802777367')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SignupController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+ERROR - 2024-04-09 17:53:42 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.example.com failed: No such host is known.  in C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\laragon\\www\\...', 1888)
+#1 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1888): fsockopen('ssl://smtp.exam...', 465, NULL, NULL, 30)
+#2 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\SignupController.php(76): CodeIgniter\Email\Email->send()
+#6 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\SignupController.php(54): App\Controllers\SignupController->sendVerificationEmail('rustomliquigan2...', '6615809bbd5dc')
+#7 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(919): App\Controllers\SignupController->store()
+#8 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#9 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Colegio_de_PuertoGalera\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Colegio_de_PuertoGalera\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+ERROR - 2024-04-09 17:53:42 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-04-09 17:53:42 --> 
+ERROR - 2024-04-09 18:05:19 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.example.com failed: No such host is known.  in C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php:1888
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\laragon\\www\\...', 1888)
+#1 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1888): fsockopen('ssl://smtp.exam...', 465, NULL, NULL, 30)
+#2 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1796): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1681): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\laragon\www\Colegio_de_PuertoGalera\system\Email\Email.php(1575): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\SignupController.php(76): CodeIgniter\Email\Email->send()
+#6 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\SignupController.php(54): App\Controllers\SignupController->sendVerificationEmail('rustomliquigan2...', '661583540c06d')
+#7 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(919): App\Controllers\SignupController->store()
+#8 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SignupController))
+#9 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\Colegio_de_PuertoGalera\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\Colegio_de_PuertoGalera\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+ERROR - 2024-04-09 18:05:19 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2024-04-09 18:05:19 --> 

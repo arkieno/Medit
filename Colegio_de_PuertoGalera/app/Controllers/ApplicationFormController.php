@@ -73,7 +73,7 @@ class ApplicationFormController extends BaseController
         }
     
         // Pass the $examExists and $message variables to the view
-        return view('enrollment/currentenroll', ['examExists' => $examExists, 'message' => $message]);
+        return view('enrollment/index', ['examExists' => $examExists, 'message' => $message]);
     }
 
 
@@ -105,7 +105,6 @@ class ApplicationFormController extends BaseController
             'emergency_email' => $this->request->getPost('emergency_email'),
             'emergency_phone' => $this->request->getPost('emergency_phone')
         ];
-
         // Insert data into the database
         if ($applicationModel->insert($formData)) {
             // Data inserted successfully

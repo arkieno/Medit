@@ -81,11 +81,13 @@ body {
                 <h2>Login</h2>
                 <p>Please fill in this form to login your account!</p>
                 <hr>
-                <?php if(session()->getFlashdata('msg')):?>
-                    <div class="alert alert-warning">
-                       <?= session()->getFlashdata('msg') ?>
-                    </div>
-                <?php endif;?>
+                <?php if (session()->getFlashdata('error')) : ?>
+                <div class="alert alert-danger" role="alert">
+                <?= session()->getFlashdata('error') ?>
+                
+                </div>
+                <?php endif; ?>
+
                 <form action="<?php echo base_url(); ?>/SigninController/loginAuth" method="post">
                 <div class="form-group mb-3">
                     <div class="input-group">
@@ -113,5 +115,6 @@ body {
         </div>
     </div>
 </div>
+
 </body>
 </html>
