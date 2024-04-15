@@ -12,11 +12,24 @@ $routes->get('/', 'Home::index');
 $routes->get('/aboutus', 'Home::aboutus');
 $routes->get('/courses', 'Home::courses');
 $routes->get('/teachers', 'Home::teachers');
+$routes->get('/contact', 'Home::contact');
+$routes->get('/events', 'EventController::eventlist');
 
 //admin
 $routes->get('/admin', 'Home::admin');
-$routes->get('/addemployee', 'Home::addemployee');
-$routes->post('/teacher/add', 'Home::addTeacher');
+$routes->get('/dashboard', 'Home::dashboard');
+$routes->get('/allusers', 'SignupController::userdata');
+$routes->get('/examinationdata', 'ExamController::getExamData');
+$routes->get('/addevents', 'EventController::addevents');
+$routes->get('/allevents', 'EventController::allevents');
+$routes->post('/eventStore', 'EventController::store');
+
+//adding/retrieving teacher
+//
+$routes->get('/teacherform', 'TeacherController::teacher');
+$routes->get('/allteachers', 'TeacherController::show');
+$routes->post('/addteacher', 'TeacherController::insert');
+
 
 
 //enrollment
@@ -30,7 +43,7 @@ $routes->post('/submitExam', 'ExamController::submitExam');
 $routes->get('/show_result', 'ExamController::showResult');
 
 
-//
+//login
 // $routes->get('/enroll', 'SignupController::index');
 $routes->get('/signup', 'SignupController::index');
 $routes->match(['get', 'post'], 'SignupController/store', 'SignupController::store');
@@ -39,19 +52,17 @@ $routes->get('/signin', 'SigninController::index');
 $routes->get('/profile', 'ProfileController::index',['filter' => 'authGuard']);
 $routes->post('/profile/uploadImage', 'ProfileController::uploadImage');
 
-
-
-//adding/retrieving teacher
-//
-$routes->get('/teacherform', 'TeacherController::teacher');
-$routes->post('/addteacher', 'TeacherController::insert');
-
-//email code
-// $routes->get('/verify-email/(:segment)', 'VerificationController::verifyEmail/$1');
-// app/Config/Routes.php
-
 $routes->get('/verification_form', 'VerificationController::index');
 $routes->post('/verify', 'VerificationController::verify');
 $routes->get('/login-register/signin', 'SigninController::index');
+
+
+
+// In app/Config/Routes.php
+
+$routes->get('/contact', 'ContactController::index');
+$routes->post('/contact/sendEmail', 'ContactController::sendEmail');
+
+
 
 
