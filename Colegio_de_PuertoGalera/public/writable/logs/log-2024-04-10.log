@@ -1,0 +1,42 @@
+CRITICAL - 2024-04-10 17:26:08 --> Call to undefined method App\Models\UserModel::isEmailVerified
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\SigninController.php(24): CodeIgniter\Model->__call('isEmailVerified', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->loginAuth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-10 17:28:18 --> Call to undefined method App\Models\UserModel::isEmailVerified
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\SigninController.php(24): CodeIgniter\Model->__call('isEmailVerified', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->loginAuth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-10 17:29:35 --> Call to undefined method App\Models\UserModel::isEmailVerified
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\SigninController.php(24): CodeIgniter\Model->__call('isEmailVerified', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->loginAuth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-10 17:56:07 --> Undefined array key "verification_code_expires_at"
+in APPPATH\Models\UserModel.php on line 46.
+ 1 APPPATH\Models\UserModel.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "verification_code_expires_at"', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Models\\UserModel.php', 46)
+ 2 APPPATH\Controllers\SigninController.php(24): App\Models\UserModel->isEmailVerified('rustomliquigan23@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->loginAuth()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-10 18:00:44 --> Undefined array key "verification_code_expires_at"
+in APPPATH\Models\UserModel.php on line 46.
+ 1 APPPATH\Models\UserModel.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "verification_code_expires_at"', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Models\\UserModel.php', 46)
+ 2 APPPATH\Controllers\SigninController.php(24): App\Models\UserModel->isEmailVerified('rustomliquigan23@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->loginAuth()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')

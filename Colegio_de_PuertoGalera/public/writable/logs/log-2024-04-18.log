@@ -1,0 +1,1308 @@
+CRITICAL - 2024-04-18 06:49:13 --> Invalid file: "forgot_password/forgot_password.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('forgot_password/forgot_password.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('forgot_password/forgot_password', [], true)
+ 3 APPPATH\Controllers\ForgotPasswordController.php(15): view('forgot_password/forgot_password')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->forgotPassword()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 06:49:16 --> Invalid file: "forgot_password/forgot_password.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('forgot_password/forgot_password.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('forgot_password/forgot_password', [], true)
+ 3 APPPATH\Controllers\ForgotPasswordController.php(15): view('forgot_password/forgot_password')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->forgotPassword()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 06:49:51 --> Invalid file: "login-register/forgot_password/forgot_password.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login-register/forgot_password/forgot_password.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/forgot_password/forgot_password', [], true)
+ 3 APPPATH\Controllers\ForgotPasswordController.php(15): view('login-register/forgot_password/forgot_password')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->forgotPassword()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 06:49:53 --> Invalid file: "login-register/forgot_password/forgot_password.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login-register/forgot_password/forgot_password.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/forgot_password/forgot_password', [], true)
+ 3 APPPATH\Controllers\ForgotPasswordController.php(15): view('login-register/forgot_password/forgot_password')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->forgotPassword()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 06:49:57 --> Invalid file: "login-register/forgot_password/forgot_password.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login-register/forgot_password/forgot_password.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/forgot_password/forgot_password', [], true)
+ 3 APPPATH\Controllers\ForgotPasswordController.php(15): view('login-register/forgot_password/forgot_password')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->forgotPassword()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 06:50:35 --> Invalid file: "forgot_password/verify_code.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('forgot_password/verify_code.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('forgot_password/verify_code', [], true)
+ 3 APPPATH\Controllers\ForgotPasswordController.php(71): view('forgot_password/verify_code')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->verifyCode()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 06:54:22 --> Invalid file: "forgot_password/new_password.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('forgot_password/new_password.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('forgot_password/new_password', [], true)
+ 3 APPPATH\Controllers\ForgotPasswordController.php(109): view('forgot_password/new_password')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->newPassword()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 07:15:33 --> Undefined property: Config\Session::$expiration
+in SYSTEMPATH\Session\Session.php on line 192.
+ 1 SYSTEMPATH\Session\Session.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Session::$expiration', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\system\\Session\\Session.php', 192)
+ 2 SYSTEMPATH\Config\Services.php(688): CodeIgniter\Session\Session->__construct(Object(CodeIgniter\Session\Handlers\FileHandler), Object(Config\Session))
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 SYSTEMPATH\Common.php(996): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 APPPATH\Views\login-register\new_password.php(8): session()
+ 9 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\new_password.php')
+10 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/new_password', [], true)
+12 APPPATH\Controllers\ForgotPasswordController.php(128): view('login-register/new_password')
+13 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->newPassword()
+14 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+15 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 07:15:33 --> Undefined property: Config\Session::$expiration
+in SYSTEMPATH\Session\Session.php on line 192.
+ 1 SYSTEMPATH\Session\Session.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Session::$expiration', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\system\\Session\\Session.php', 192)
+ 2 SYSTEMPATH\Config\Services.php(688): CodeIgniter\Session\Session->__construct(Object(CodeIgniter\Session\Handlers\FileHandler), Object(Config\Session))
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 SYSTEMPATH\Common.php(996): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 APPPATH\Views\login-register\verify_code.php(8): session()
+ 9 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\verify_code.php')
+10 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/verify_code', [], true)
+12 APPPATH\Controllers\ForgotPasswordController.php(90): view('login-register/verify_code')
+13 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->verifyCode()
+14 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+15 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 07:15:36 --> Undefined property: Config\Session::$expiration
+in SYSTEMPATH\Session\Session.php on line 192.
+ 1 SYSTEMPATH\Session\Session.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Session::$expiration', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\system\\Session\\Session.php', 192)
+ 2 SYSTEMPATH\Config\Services.php(688): CodeIgniter\Session\Session->__construct(Object(CodeIgniter\Session\Handlers\FileHandler), Object(Config\Session))
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 SYSTEMPATH\Common.php(996): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 APPPATH\Views\login-register\forgot_password.php(13): session()
+ 9 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\forgot_password.php')
+10 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/forgot_password', [], true)
+12 APPPATH\Controllers\ForgotPasswordController.php(16): view('login-register/forgot_password')
+13 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->forgotPassword()
+14 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+15 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 07:15:37 --> Undefined property: Config\Session::$expiration
+in SYSTEMPATH\Session\Session.php on line 192.
+ 1 SYSTEMPATH\Session\Session.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Session::$expiration', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\system\\Session\\Session.php', 192)
+ 2 SYSTEMPATH\Config\Services.php(688): CodeIgniter\Session\Session->__construct(Object(CodeIgniter\Session\Handlers\FileHandler), Object(Config\Session))
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 SYSTEMPATH\Common.php(996): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 APPPATH\Views\login-register\signin.php(84): session()
+ 9 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\signin.php')
+10 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/signin', [], true)
+12 APPPATH\Controllers\SigninController.php(13): view('login-register/signin')
+13 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->index()
+14 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+15 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 07:15:40 --> Undefined property: Config\Session::$expiration
+in SYSTEMPATH\Session\Session.php on line 192.
+ 1 SYSTEMPATH\Session\Session.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Session::$expiration', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\system\\Session\\Session.php', 192)
+ 2 SYSTEMPATH\Config\Services.php(688): CodeIgniter\Session\Session->__construct(Object(CodeIgniter\Session\Handlers\FileHandler), Object(Config\Session))
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 SYSTEMPATH\Common.php(996): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 APPPATH\Views\login-register\signin.php(84): session()
+ 9 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\signin.php')
+10 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/signin', [], true)
+12 APPPATH\Controllers\SigninController.php(13): view('login-register/signin')
+13 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->index()
+14 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+15 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 07:15:48 --> Undefined property: Config\Session::$expiration
+in SYSTEMPATH\Session\Session.php on line 192.
+ 1 SYSTEMPATH\Session\Session.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: Config\\Session::$expiration', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\system\\Session\\Session.php', 192)
+ 2 SYSTEMPATH\Config\Services.php(688): CodeIgniter\Session\Session->__construct(Object(CodeIgniter\Session\Handlers\FileHandler), Object(Config\Session))
+ 3 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 4 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 5 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 7 SYSTEMPATH\Common.php(996): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 8 APPPATH\Views\login-register\signin.php(84): session()
+ 9 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\signin.php')
+10 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+11 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/signin', [], true)
+12 APPPATH\Controllers\SigninController.php(13): view('login-register/signin')
+13 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->index()
+14 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+15 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+16 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+17 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 07:24:38 --> Call to undefined method App\Models\ForgotPasswordModel::insertPasswordReset
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ForgotPasswordController.php(35): CodeIgniter\Model->__call('insertPasswordReset', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 07:27:36 --> Call to undefined method App\Models\ForgotPasswordModel::insertPasswordReset
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\ForgotPasswordController.php(48): CodeIgniter\Model->__call('insertPasswordReset', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+ERROR - 2024-04-18 07:31:44 --> mysqli_sql_exception: Duplicate entry 'rustomliquigan23@gmail.com' for key 'password_resets.PRIMARY' in C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Colegio_de_PuertoGalera\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\Colegio_de_PuertoGalera\app\Models\ForgotPasswordModel.php(29): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\ForgotPasswordController.php(36): App\Models\ForgotPasswordModel->insertPasswordReset('rustomliquigan2...', 499646, '2024-04-18 07:4...')
+#9 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+#10 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+#11 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Colegio_de_PuertoGalera\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\Colegio_de_PuertoGalera\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-04-18 07:31:44 --> Duplicate entry 'rustomliquigan23@gmail.com' for key 'password_resets.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `password_resets` (`email`, `verification_code`, `expires_at`) VALUES (:email:, :verification_code:, :expires_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\ForgotPasswordModel.php(29): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\ForgotPasswordController.php(36): App\Models\ForgotPasswordModel->insertPasswordReset('rustomliquigan23@gmail.com', 499646, '2024-04-18 07:41:44')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 07:36:51 --> Undefined variable $password_resets
+in APPPATH\Controllers\ForgotPasswordController.php on line 36.
+ 1 APPPATH\Controllers\ForgotPasswordController.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $password_resets', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Controllers\\ForgotPasswordController.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 07:37:56 --> Too few arguments to function App\Models\ForgotPasswordModel::insertPasswordReset(), 3 passed in C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\ForgotPasswordController.php on line 36 and exactly 4 expected
+in APPPATH\Models\ForgotPasswordModel.php on line 18.
+ 1 APPPATH\Controllers\ForgotPasswordController.php(36): App\Models\ForgotPasswordModel->insertPasswordReset('rustomliquigan23@gmail.com', 420902, '2024-04-18 07:47:56')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+ERROR - 2024-04-18 07:39:33 --> mysqli_sql_exception: Duplicate entry 'rustomliquigan23@gmail.com' for key 'password_resets.PRIMARY' in C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Colegio_de_PuertoGalera\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\Colegio_de_PuertoGalera\app\Models\ForgotPasswordModel.php(29): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\ForgotPasswordController.php(36): App\Models\ForgotPasswordModel->insertPasswordReset('rustomliquigan2...', 514658, '2024-04-18 07:4...')
+#9 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+#10 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+#11 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Colegio_de_PuertoGalera\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\Colegio_de_PuertoGalera\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-04-18 07:39:33 --> Duplicate entry 'rustomliquigan23@gmail.com' for key 'password_resets.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `password_resets` (`email`, `verification_code`, `expires_at`) VALUES (:email:, :verification_code:, :expires_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\ForgotPasswordModel.php(29): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\ForgotPasswordController.php(36): App\Models\ForgotPasswordModel->insertPasswordReset('rustomliquigan23@gmail.com', 514658, '2024-04-18 07:49:33')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+ERROR - 2024-04-18 07:39:55 --> mysqli_sql_exception: Duplicate entry 'rustomliquigan23@gmail.com' for key 'password_resets.PRIMARY' in C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Colegio_de_PuertoGalera\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\Colegio_de_PuertoGalera\app\Models\ForgotPasswordModel.php(29): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\ForgotPasswordController.php(36): App\Models\ForgotPasswordModel->insertPasswordReset('rustomliquigan2...', 531418, '2024-04-18 07:4...')
+#9 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+#10 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+#11 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Colegio_de_PuertoGalera\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\Colegio_de_PuertoGalera\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-04-18 07:39:55 --> Duplicate entry 'rustomliquigan23@gmail.com' for key 'password_resets.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `password_resets` (`email`, `verification_code`, `expires_at`) VALUES (:email:, :verification_code:, :expires_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\ForgotPasswordModel.php(29): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\ForgotPasswordController.php(36): App\Models\ForgotPasswordModel->insertPasswordReset('rustomliquigan23@gmail.com', 531418, '2024-04-18 07:49:55')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+ERROR - 2024-04-18 07:43:59 --> mysqli_sql_exception: Duplicate entry 'rustomliquigan23@gmail.com' for key 'password_resets.PRIMARY' in C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Colegio_de_PuertoGalera\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\Colegio_de_PuertoGalera\app\Models\ForgotPasswordModel.php(29): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\ForgotPasswordController.php(35): App\Models\ForgotPasswordModel->insertPasswordReset('rustomliquigan2...', 937975, '2024-04-18 07:5...')
+#9 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+#10 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+#11 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Colegio_de_PuertoGalera\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\Colegio_de_PuertoGalera\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-04-18 07:43:59 --> Duplicate entry 'rustomliquigan23@gmail.com' for key 'password_resets.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `password_resets` (`email`, `verification_code`, `expires_at`) VALUES (:email:, :verification_code:, :expires_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\ForgotPasswordModel.php(29): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\ForgotPasswordController.php(35): App\Models\ForgotPasswordModel->insertPasswordReset('rustomliquigan23@gmail.com', 937975, '2024-04-18 07:53:59')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+ERROR - 2024-04-18 07:44:02 --> mysqli_sql_exception: Duplicate entry 'rustomliquigan23@gmail.com' for key 'password_resets.PRIMARY' in C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Colegio_de_PuertoGalera\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\Colegio_de_PuertoGalera\app\Models\ForgotPasswordModel.php(29): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\ForgotPasswordController.php(35): App\Models\ForgotPasswordModel->insertPasswordReset('rustomliquigan2...', 430452, '2024-04-18 07:5...')
+#9 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+#10 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+#11 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Colegio_de_PuertoGalera\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\Colegio_de_PuertoGalera\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-04-18 07:44:02 --> Duplicate entry 'rustomliquigan23@gmail.com' for key 'password_resets.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `password_resets` (`email`, `verification_code`, `expires_at`) VALUES (:email:, :verification_code:, :expires_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\ForgotPasswordModel.php(29): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\ForgotPasswordController.php(35): App\Models\ForgotPasswordModel->insertPasswordReset('rustomliquigan23@gmail.com', 430452, '2024-04-18 07:54:02')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+ERROR - 2024-04-18 07:44:07 --> mysqli_sql_exception: Duplicate entry 'rustomliquigan23@gmail.com' for key 'password_resets.PRIMARY' in C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Colegio_de_PuertoGalera\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\Colegio_de_PuertoGalera\app\Models\ForgotPasswordModel.php(29): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\ForgotPasswordController.php(35): App\Models\ForgotPasswordModel->insertPasswordReset('rustomliquigan2...', 288520, '2024-04-18 07:5...')
+#9 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+#10 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+#11 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Colegio_de_PuertoGalera\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\Colegio_de_PuertoGalera\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-04-18 07:44:07 --> Duplicate entry 'rustomliquigan23@gmail.com' for key 'password_resets.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `password_resets` (`email`, `verification_code`, `expires_at`) VALUES (:email:, :verification_code:, :expires_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\ForgotPasswordModel.php(29): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\ForgotPasswordController.php(35): App\Models\ForgotPasswordModel->insertPasswordReset('rustomliquigan23@gmail.com', 288520, '2024-04-18 07:54:07')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+ERROR - 2024-04-18 07:47:11 --> mysqli_sql_exception: Duplicate entry 'rustomliquigan23@gmail.com' for key 'password_resets.PRIMARY' in C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Colegio_de_PuertoGalera\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\Colegio_de_PuertoGalera\app\Models\ForgotPasswordModel.php(29): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\ForgotPasswordController.php(35): App\Models\ForgotPasswordModel->insertPasswordReset('rustomliquigan2...', 806359, '2024-04-18 07:5...')
+#9 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+#10 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+#11 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Colegio_de_PuertoGalera\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\Colegio_de_PuertoGalera\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-04-18 07:47:11 --> Duplicate entry 'rustomliquigan23@gmail.com' for key 'password_resets.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `password_resets` (`email`, `verification_code`, `expires_at`) VALUES (:email:, :verification_code:, :expires_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\ForgotPasswordModel.php(29): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\ForgotPasswordController.php(35): App\Models\ForgotPasswordModel->insertPasswordReset('rustomliquigan23@gmail.com', 806359, '2024-04-18 07:57:11')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+ERROR - 2024-04-18 09:16:54 --> mysqli_sql_exception: Duplicate entry 'rustomliquigan23@gmail.com' for key 'password_resets.PRIMARY' in C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Colegio_de_PuertoGalera\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\Colegio_de_PuertoGalera\app\Models\ForgotPasswordModel.php(29): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\ForgotPasswordController.php(35): App\Models\ForgotPasswordModel->insertPasswordReset('rustomliquigan2...', 698934, '2024-04-18 09:2...')
+#9 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+#10 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+#11 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Colegio_de_PuertoGalera\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\Colegio_de_PuertoGalera\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-04-18 09:16:54 --> Duplicate entry 'rustomliquigan23@gmail.com' for key 'password_resets.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `password_resets` (`email`, `verification_code`, `expires_at`) VALUES (:email:, :verification_code:, :expires_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\ForgotPasswordModel.php(29): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\ForgotPasswordController.php(35): App\Models\ForgotPasswordModel->insertPasswordReset('rustomliquigan23@gmail.com', 698934, '2024-04-18 09:26:54')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+ERROR - 2024-04-18 09:17:13 --> mysqli_sql_exception: Duplicate entry 'rustomliquigan23@gmail.com' for key 'password_resets.PRIMARY' in C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Colegio_de_PuertoGalera\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\Colegio_de_PuertoGalera\app\Models\ForgotPasswordModel.php(29): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\ForgotPasswordController.php(35): App\Models\ForgotPasswordModel->insertPasswordReset('rustomliquigan2...', 771331, '2024-04-18 09:2...')
+#9 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+#10 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+#11 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Colegio_de_PuertoGalera\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\Colegio_de_PuertoGalera\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-04-18 09:17:13 --> Duplicate entry 'rustomliquigan23@gmail.com' for key 'password_resets.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `password_resets` (`email`, `verification_code`, `expires_at`) VALUES (:email:, :verification_code:, :expires_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\ForgotPasswordModel.php(29): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\ForgotPasswordController.php(35): App\Models\ForgotPasswordModel->insertPasswordReset('rustomliquigan23@gmail.com', 771331, '2024-04-18 09:27:13')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+ERROR - 2024-04-18 09:17:19 --> mysqli_sql_exception: Duplicate entry 'rustomliquigan23@gmail.com' for key 'password_resets.PRIMARY' in C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Colegio_de_PuertoGalera\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\Colegio_de_PuertoGalera\app\Models\ForgotPasswordModel.php(29): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\ForgotPasswordController.php(35): App\Models\ForgotPasswordModel->insertPasswordReset('rustomliquigan2...', 741214, '2024-04-18 09:2...')
+#9 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+#10 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+#11 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Colegio_de_PuertoGalera\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\Colegio_de_PuertoGalera\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-04-18 09:17:19 --> Duplicate entry 'rustomliquigan23@gmail.com' for key 'password_resets.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `password_resets` (`email`, `verification_code`, `expires_at`) VALUES (:email:, :verification_code:, :expires_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\ForgotPasswordModel.php(29): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\ForgotPasswordController.php(35): App\Models\ForgotPasswordModel->insertPasswordReset('rustomliquigan23@gmail.com', 741214, '2024-04-18 09:27:19')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+ERROR - 2024-04-18 09:17:52 --> mysqli_sql_exception: Duplicate entry 'rustomliquigan23@gmail.com' for key 'password_resets.PRIMARY' in C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Colegio_de_PuertoGalera\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\Colegio_de_PuertoGalera\app\Models\ForgotPasswordModel.php(29): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\ForgotPasswordController.php(35): App\Models\ForgotPasswordModel->insertPasswordReset('rustomliquigan2...', 469287, '2024-04-18 09:2...')
+#9 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+#10 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+#11 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Colegio_de_PuertoGalera\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\Colegio_de_PuertoGalera\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-04-18 09:17:52 --> Duplicate entry 'rustomliquigan23@gmail.com' for key 'password_resets.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `password_resets` (`email`, `verification_code`, `expires_at`) VALUES (:email:, :verification_code:, :expires_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\ForgotPasswordModel.php(29): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\ForgotPasswordController.php(35): App\Models\ForgotPasswordModel->insertPasswordReset('rustomliquigan23@gmail.com', 469287, '2024-04-18 09:27:52')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+ERROR - 2024-04-18 09:19:18 --> mysqli_sql_exception: Duplicate entry 'rustomliquigan23@gmail.com' for key 'password_resets.PRIMARY' in C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Colegio_de_PuertoGalera\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\Colegio_de_PuertoGalera\app\Models\ForgotPasswordModel.php(29): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\ForgotPasswordController.php(35): App\Models\ForgotPasswordModel->insertPasswordReset('rustomliquigan2...', 563523, '2024-04-18 09:2...')
+#9 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+#10 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+#11 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Colegio_de_PuertoGalera\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\Colegio_de_PuertoGalera\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-04-18 09:19:18 --> Duplicate entry 'rustomliquigan23@gmail.com' for key 'password_resets.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `password_resets` (`email`, `verification_code`, `expires_at`) VALUES (:email:, :verification_code:, :expires_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\ForgotPasswordModel.php(29): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\ForgotPasswordController.php(35): App\Models\ForgotPasswordModel->insertPasswordReset('rustomliquigan23@gmail.com', 563523, '2024-04-18 09:29:18')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+ERROR - 2024-04-18 09:24:07 --> mysqli_sql_exception: Duplicate entry 'rustomliquigan23@gmail.com' for key 'password_resets.PRIMARY' in C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Colegio_de_PuertoGalera\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\Colegio_de_PuertoGalera\app\Models\ForgotPasswordModel.php(29): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\ForgotPasswordController.php(35): App\Models\ForgotPasswordModel->insertPasswordReset('rustomliquigan2...', 823388, '2024-04-18 09:3...')
+#9 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+#10 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+#11 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Colegio_de_PuertoGalera\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\Colegio_de_PuertoGalera\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-04-18 09:24:07 --> Duplicate entry 'rustomliquigan23@gmail.com' for key 'password_resets.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `password_resets` (`email`, `verification_code`, `expires_at`) VALUES (:email:, :verification_code:, :expires_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\ForgotPasswordModel.php(29): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\ForgotPasswordController.php(35): App\Models\ForgotPasswordModel->insertPasswordReset('rustomliquigan23@gmail.com', 823388, '2024-04-18 09:34:07')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+ERROR - 2024-04-18 11:03:10 --> mysqli_sql_exception: Duplicate entry 'rustomliquigan23@gmail.com' for key 'password_resets.PRIMARY' in C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Colegio_de_PuertoGalera\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\Colegio_de_PuertoGalera\app\Models\ForgotPasswordModel.php(29): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\ForgotPasswordController.php(35): App\Models\ForgotPasswordModel->insertPasswordReset('rustomliquigan2...', 985772, '2024-04-18 11:1...')
+#9 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+#10 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+#11 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Colegio_de_PuertoGalera\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\Colegio_de_PuertoGalera\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-04-18 11:03:10 --> Duplicate entry 'rustomliquigan23@gmail.com' for key 'password_resets.PRIMARY'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `password_resets` (`email`, `verification_code`, `expires_at`) VALUES (:email:, :verification_code:, :expires_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\ForgotPasswordModel.php(29): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\ForgotPasswordController.php(35): App\Models\ForgotPasswordModel->insertPasswordReset('rustomliquigan23@gmail.com', 985772, '2024-04-18 11:13:10')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+ERROR - 2024-04-18 15:29:46 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `me...', 0)
+#1 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `me...')
+#2 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `me...')
+#3 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#4 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Colegio_de_PuertoGalera\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\ChatbotController.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(919): App\Controllers\ChatbotController->process()
+#9 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+#10 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Colegio_de_PuertoGalera\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\Colegio_de_PuertoGalera\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-04-18 15:29:46 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `messages` (`query`, `response`, `created_at`, `updated_at`) VALUES (:query:, :response:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\ChatbotController.php(25): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->process()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+ERROR - 2024-04-18 15:30:22 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `me...', 0)
+#1 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `me...')
+#2 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `me...')
+#3 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#4 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Colegio_de_PuertoGalera\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\ChatbotController.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(919): App\Controllers\ChatbotController->process()
+#9 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+#10 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Colegio_de_PuertoGalera\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\Colegio_de_PuertoGalera\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-04-18 15:30:22 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `messages` (`query`, `response`, `created_at`, `updated_at`) VALUES (:query:, :response:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\ChatbotController.php(25): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->process()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+ERROR - 2024-04-18 15:30:30 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `me...', 0)
+#1 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `me...')
+#2 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `me...')
+#3 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#4 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Colegio_de_PuertoGalera\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\ChatbotController.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(919): App\Controllers\ChatbotController->process()
+#9 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+#10 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Colegio_de_PuertoGalera\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\Colegio_de_PuertoGalera\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-04-18 15:30:30 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `messages` (`query`, `response`, `created_at`, `updated_at`) VALUES (:query:, :response:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\ChatbotController.php(25): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->process()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+ERROR - 2024-04-18 15:30:57 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `me...', 0)
+#1 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `me...')
+#2 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `me...')
+#3 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#4 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Colegio_de_PuertoGalera\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\ChatbotController.php(25): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(919): App\Controllers\ChatbotController->process()
+#9 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+#10 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Colegio_de_PuertoGalera\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\Colegio_de_PuertoGalera\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-04-18 15:30:57 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `messages` (`query`, `response`, `created_at`, `updated_at`) VALUES (:query:, :response:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\ChatbotController.php(25): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->process()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+ERROR - 2024-04-18 15:44:21 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `me...', 0)
+#1 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `me...')
+#2 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `me...')
+#3 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `me...', Array, false)
+#4 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Colegio_de_PuertoGalera\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\ChatbotController.php(41): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\ChatbotController.php(23): App\Controllers\ChatbotController->saveToDatabase('hi', 'hi')
+#9 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(919): App\Controllers\ChatbotController->process()
+#10 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+#11 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\laragon\www\Colegio_de_PuertoGalera\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 C:\laragon\www\Colegio_de_PuertoGalera\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#14 {main}
+CRITICAL - 2024-04-18 15:44:21 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `messages` (`query`, `response`, `created_at`, `updated_at`) VALUES (:query:, :response:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\ChatbotController.php(41): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\ChatbotController.php(23): App\Controllers\ChatbotController->saveToDatabase('hi', 'hi')
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->process()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 16:46:25 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 27.
+ 1 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 16:46:26 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 27.
+ 1 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 16:46:26 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 27.
+ 1 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 16:46:27 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 27.
+ 1 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 16:46:28 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 27.
+ 1 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 16:46:28 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 27.
+ 1 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 16:46:30 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 27.
+ 1 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 16:46:31 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 27.
+ 1 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 16:46:54 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 27.
+ 1 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 16:47:44 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 27.
+ 1 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 16:47:45 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 27.
+ 1 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 16:47:45 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 27.
+ 1 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 16:49:34 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 27.
+ 1 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 16:49:35 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 27.
+ 1 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 16:49:35 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 27.
+ 1 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 16:49:35 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 27.
+ 1 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 16:49:37 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 27.
+ 1 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 16:49:37 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 27.
+ 1 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 16:50:49 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 27.
+ 1 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 16:50:49 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 27.
+ 1 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 16:50:50 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 27.
+ 1 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 16:50:50 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 27.
+ 1 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 16:50:50 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 27.
+ 1 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 16:50:51 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 27.
+ 1 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 16:50:51 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 27.
+ 1 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 16:50:52 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 27.
+ 1 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 16:50:52 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 27.
+ 1 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 16:50:52 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 27.
+ 1 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 16:51:49 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 35.
+ 1 APPPATH\Controllers\ChatbotController.php(20): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 16:51:49 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 35.
+ 1 APPPATH\Controllers\ChatbotController.php(20): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 16:51:49 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 35.
+ 1 APPPATH\Controllers\ChatbotController.php(20): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 16:51:50 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 35.
+ 1 APPPATH\Controllers\ChatbotController.php(20): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 17:03:55 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 35.
+ 1 APPPATH\Controllers\ChatbotController.php(20): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 17:03:55 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 35.
+ 1 APPPATH\Controllers\ChatbotController.php(20): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 17:03:56 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 35.
+ 1 APPPATH\Controllers\ChatbotController.php(20): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 17:03:56 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 35.
+ 1 APPPATH\Controllers\ChatbotController.php(20): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 17:03:56 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 35.
+ 1 APPPATH\Controllers\ChatbotController.php(20): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 17:03:56 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 35.
+ 1 APPPATH\Controllers\ChatbotController.php(20): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 17:03:57 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 35.
+ 1 APPPATH\Controllers\ChatbotController.php(20): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 17:03:57 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 35.
+ 1 APPPATH\Controllers\ChatbotController.php(20): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 17:03:57 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 35.
+ 1 APPPATH\Controllers\ChatbotController.php(20): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 17:03:57 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 35.
+ 1 APPPATH\Controllers\ChatbotController.php(20): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 17:03:58 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 35.
+ 1 APPPATH\Controllers\ChatbotController.php(20): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 17:03:58 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 35.
+ 1 APPPATH\Controllers\ChatbotController.php(20): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 17:03:58 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 35.
+ 1 APPPATH\Controllers\ChatbotController.php(20): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 17:03:59 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 35.
+ 1 APPPATH\Controllers\ChatbotController.php(20): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 17:03:59 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 35.
+ 1 APPPATH\Controllers\ChatbotController.php(20): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 17:03:59 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 35.
+ 1 APPPATH\Controllers\ChatbotController.php(20): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 17:04:00 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 35.
+ 1 APPPATH\Controllers\ChatbotController.php(20): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 17:04:00 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 35.
+ 1 APPPATH\Controllers\ChatbotController.php(20): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 17:04:01 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 35.
+ 1 APPPATH\Controllers\ChatbotController.php(20): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 17:04:01 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 35.
+ 1 APPPATH\Controllers\ChatbotController.php(20): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 17:04:01 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 35.
+ 1 APPPATH\Controllers\ChatbotController.php(20): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 17:04:02 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 35.
+ 1 APPPATH\Controllers\ChatbotController.php(20): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 17:04:51 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 35.
+ 1 APPPATH\Controllers\ChatbotController.php(20): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 17:04:52 --> Class "OpenAI\API" not found
+in APPPATH\Controllers\ChatbotController.php on line 35.
+ 1 APPPATH\Controllers\ChatbotController.php(20): App\Controllers\ChatbotController->chat_with_gpt('hi')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->getResponse()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 17:15:49 --> Undefined array key "choices"
+in APPPATH\Controllers\ChatbotController.php on line 52.
+ 1 APPPATH\Controllers\ChatbotController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "choices"', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Controllers\\ChatbotController.php', 52)
+ 2 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->getChatGPTResponse(null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->chat()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 17:15:50 --> Undefined array key "choices"
+in APPPATH\Controllers\ChatbotController.php on line 52.
+ 1 APPPATH\Controllers\ChatbotController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "choices"', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Controllers\\ChatbotController.php', 52)
+ 2 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->getChatGPTResponse(null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->chat()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 17:15:56 --> Undefined array key "choices"
+in APPPATH\Controllers\ChatbotController.php on line 52.
+ 1 APPPATH\Controllers\ChatbotController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "choices"', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Controllers\\ChatbotController.php', 52)
+ 2 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->getChatGPTResponse(null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->chat()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 17:16:00 --> Undefined array key "choices"
+in APPPATH\Controllers\ChatbotController.php on line 52.
+ 1 APPPATH\Controllers\ChatbotController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "choices"', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Controllers\\ChatbotController.php', 52)
+ 2 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->getChatGPTResponse(null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->chat()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 17:18:02 --> Undefined array key "choices"
+in APPPATH\Controllers\ChatbotController.php on line 52.
+ 1 APPPATH\Controllers\ChatbotController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "choices"', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Controllers\\ChatbotController.php', 52)
+ 2 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->getChatGPTResponse(null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->chat()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 17:19:34 --> Undefined array key "choices"
+in APPPATH\Controllers\ChatbotController.php on line 52.
+ 1 APPPATH\Controllers\ChatbotController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "choices"', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Controllers\\ChatbotController.php', 52)
+ 2 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->getChatGPTResponse(null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->chat()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 17:19:42 --> Undefined array key "choices"
+in APPPATH\Controllers\ChatbotController.php on line 52.
+ 1 APPPATH\Controllers\ChatbotController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "choices"', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Controllers\\ChatbotController.php', 52)
+ 2 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->getChatGPTResponse(null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->chat()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-18 17:19:56 --> Undefined array key "choices"
+in APPPATH\Controllers\ChatbotController.php on line 52.
+ 1 APPPATH\Controllers\ChatbotController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "choices"', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Controllers\\ChatbotController.php', 52)
+ 2 APPPATH\Controllers\ChatbotController.php(19): App\Controllers\ChatbotController->getChatGPTResponse(null)
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ChatbotController->chat()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ChatbotController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+ERROR - 2024-04-18 17:22:02 --> Error processing chat request: Undefined array key "choices"
+ERROR - 2024-04-18 17:23:27 --> Error processing chat request: Undefined array key "choices"
+ERROR - 2024-04-18 17:23:40 --> Error processing chat request: Undefined array key "choices"
+ERROR - 2024-04-18 17:24:23 --> Error processing chat request: Undefined array key "choices"
+ERROR - 2024-04-18 17:25:14 --> Error processing chat request: Undefined array key "choices"
+ERROR - 2024-04-18 17:25:46 --> Error processing chat request: Undefined array key "choices"
+ERROR - 2024-04-18 17:27:07 --> Error processing chat request: Undefined array key "choices"
+ERROR - 2024-04-18 17:29:19 --> Error processing chat request: Undefined array key "choices"
+ERROR - 2024-04-18 17:30:48 --> Error processing chat request: Undefined array key "choices"
+ERROR - 2024-04-18 17:32:28 --> Error processing chat request: Undefined array key "choices"

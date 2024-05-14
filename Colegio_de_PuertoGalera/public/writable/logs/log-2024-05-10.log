@@ -1,0 +1,144 @@
+CRITICAL - 2024-05-10 15:38:21 --> Class "App\Models\ScheduleHistory" not found
+in APPPATH\Controllers\ScheduleController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ScheduleController->update('8')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-05-10 15:38:21 --> Class "App\Models\ScheduleHistory" not found
+in APPPATH\Controllers\ScheduleController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ScheduleController->update('8')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-05-10 15:41:17 --> Class "App\Models\ScheduleHistory" not found
+in APPPATH\Controllers\ScheduleController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ScheduleController->update('8')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-05-10 15:43:33 --> Class "App\Models\ScheduleHistory" not found
+in APPPATH\Controllers\ScheduleController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ScheduleController->update('8')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-05-10 15:44:54 --> Class "App\Controllers\ScheduleHistoryModel" not found
+in APPPATH\Controllers\ScheduleController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ScheduleController->update('8')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-05-10 15:45:49 --> Class "App\Models\ScheduleHistory" not found
+in APPPATH\Controllers\ScheduleController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ScheduleController->update('8')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-05-10 15:46:39 --> Class "App\Controllers\ScheduleHistory" not found
+in APPPATH\Controllers\ScheduleController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ScheduleController->update('8')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-05-10 15:48:43 --> Class "App\Models\ScheduleHistory" not found
+in APPPATH\Controllers\ScheduleController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ScheduleController->update('8')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-05-10 15:49:02 --> Class "App\Models\ScheduleHistory" not found
+in APPPATH\Controllers\ScheduleController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ScheduleController->update('9')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-05-10 15:54:31 --> Class "App\Controllers\ScheduleHistoryModel" not found
+in APPPATH\Controllers\ScheduleController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ScheduleController->update('9')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+ERROR - 2024-05-10 15:56:35 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `sc...', 0)
+#1 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sc...')
+#2 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sc...')
+#3 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sc...', Array, false)
+#4 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Colegio_de_PuertoGalera\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\ScheduleController.php(71): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(919): App\Controllers\ScheduleController->update('9')
+#9 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+#10 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Colegio_de_PuertoGalera\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\Colegio_de_PuertoGalera\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-05-10 15:56:35 --> Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `schedule_history` (`schedule_id`, `updated_by`, `update_time`, `updated_at`) VALUES (:schedule_id:, :updated_by:, :update_time:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\ScheduleController.php(71): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ScheduleController->update('9')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+ERROR - 2024-05-10 15:57:48 --> mysqli_sql_exception: Unknown column 'created_at' in 'field list' in C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `sc...', 0)
+#1 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sc...')
+#2 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sc...')
+#3 C:\laragon\www\Colegio_de_PuertoGalera\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sc...', Array, false)
+#4 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\laragon\www\Colegio_de_PuertoGalera\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\laragon\www\Colegio_de_PuertoGalera\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\laragon\www\Colegio_de_PuertoGalera\app\Controllers\ScheduleController.php(71): CodeIgniter\Model->insert(Array)
+#8 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(919): App\Controllers\ScheduleController->update('9')
+#9 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+#10 C:\laragon\www\Colegio_de_PuertoGalera\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\laragon\www\Colegio_de_PuertoGalera\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\laragon\www\Colegio_de_PuertoGalera\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#13 {main}
+CRITICAL - 2024-05-10 15:57:48 --> Unknown column 'created_at' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `schedule_history` (`schedule_id`, `updated_by`, `update_time`, `created_at`, `updated_at`) VALUES (:schedule_id:, :updated_by:, :update_time:, :created_at:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\ScheduleController.php(71): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ScheduleController->update('9')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-05-10 17:12:30 --> Class "App\Controllers\PHPMailer" not found
+in APPPATH\Controllers\ScheduleController.php on line 105.
+ 1 APPPATH\Controllers\ScheduleController.php(51): App\Controllers\ScheduleController->sendEmail('recipient@gmail.com', 'New Class Schedule Created', 'A new class schedule has been created. Here are the details:
+
+Faculty: Elmer Festijo
+Days of Week: monday , wednesday
+Title: Networking
+Time: 02:12 - 00:12
+Room: 204
+Semester: 2nd
+Course Year Section: bsoa
+Description: dfafafea')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ScheduleController->create()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ScheduleController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+ERROR - 2024-05-10 17:13:35 --> Email could not be sent. Error: SMTP Error: Could not authenticate.SMTP server error: Called QUIT without being connected

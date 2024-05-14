@@ -1,0 +1,24 @@
+CRITICAL - 2024-04-20 14:51:15 --> Undefined array key "expiration_time"
+in APPPATH\Controllers\ForgotPasswordController.php on line 34.
+ 1 APPPATH\Controllers\ForgotPasswordController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "expiration_time"', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Controllers\\ForgotPasswordController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-20 14:52:35 --> Undefined array key "expiration_time"
+in APPPATH\Controllers\ForgotPasswordController.php on line 34.
+ 1 APPPATH\Controllers\ForgotPasswordController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "expiration_time"', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Controllers\\ForgotPasswordController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-20 14:52:38 --> Undefined array key "expiration_time"
+in APPPATH\Controllers\ForgotPasswordController.php on line 34.
+ 1 APPPATH\Controllers\ForgotPasswordController.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "expiration_time"', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Controllers\\ForgotPasswordController.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ForgotPasswordController->sendVerificationCode()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ForgotPasswordController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')

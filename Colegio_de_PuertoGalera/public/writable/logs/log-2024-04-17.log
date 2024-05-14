@@ -1,0 +1,109 @@
+CRITICAL - 2024-04-17 15:08:49 --> Invalid file: "forgot_password.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('forgot_password.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('forgot_password', [], true)
+ 3 APPPATH\Controllers\SigninController.php(82): view('forgot_password')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->forgotPassword()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-17 15:10:17 --> Class "App\Controllers\ForgotPasswordModel" not found
+in APPPATH\Controllers\SigninController.php on line 88.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->sendResetCode()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-17 15:13:44 --> Call to undefined method App\Models\UserModel::updateResetCode
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\SigninController.php(99): CodeIgniter\Model->__call('updateResetCode', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->sendResetCode()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-17 15:16:31 --> Call to undefined method App\Models\UserModel::updateResetCode
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\SigninController.php(99): CodeIgniter\Model->__call('updateResetCode', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->sendResetCode()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-17 15:17:25 --> require(C:\laragon\www\Colegio_de_PuertoGalera\app\ThirdParty/PHPMailer/Exception.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\SigninController.php on line 143.
+ 1 APPPATH\Controllers\SigninController.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\ThirdParty/PHPMailer/Exception.php): Failed to open stream: No such file or directory', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Controllers\\SigninController.php', 143)
+ 2 APPPATH\Controllers\SigninController.php(143): require()
+ 3 APPPATH\Controllers\SigninController.php(102): App\Controllers\SigninController->sendEmail('rustomliquigan23@gmail.com', 'f52bd4975d57a1e351ac3774c1dfa7c4')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->sendResetCode()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-17 15:18:13 --> require(C:\laragon\www\Colegio_de_PuertoGalera\app\ThirdParty/PHPMailer/Exception.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\SigninController.php on line 145.
+ 1 APPPATH\Controllers\SigninController.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\ThirdParty/PHPMailer/Exception.php): Failed to open stream: No such file or directory', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Controllers\\SigninController.php', 145)
+ 2 APPPATH\Controllers\SigninController.php(145): require()
+ 3 APPPATH\Controllers\SigninController.php(104): App\Controllers\SigninController->sendEmail('rustomliquigan23@gmail.com', 'f5750a2998579bce014d1c5eafec9094')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->sendResetCode()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-17 15:18:22 --> require(C:\laragon\www\Colegio_de_PuertoGalera\app\ThirdParty/PHPMailer/Exception.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\SigninController.php on line 145.
+ 1 APPPATH\Controllers\SigninController.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\ThirdParty/PHPMailer/Exception.php): Failed to open stream: No such file or directory', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Controllers\\SigninController.php', 145)
+ 2 APPPATH\Controllers\SigninController.php(145): require()
+ 3 APPPATH\Controllers\SigninController.php(104): App\Controllers\SigninController->sendEmail('rustomliquigan23@gmail.com', '94cb03b174a9190c592a4e91ab6fbdf4')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->sendResetCode()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-17 15:20:14 --> require(C:\laragon\www\Colegio_de_PuertoGalera\app\ThirdParty/PHPMailer/Exception.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\SigninController.php on line 146.
+ 1 APPPATH\Controllers\SigninController.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\ThirdParty/PHPMailer/Exception.php): Failed to open stream: No such file or directory', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Controllers\\SigninController.php', 146)
+ 2 APPPATH\Controllers\SigninController.php(146): require()
+ 3 APPPATH\Controllers\SigninController.php(105): App\Controllers\SigninController->sendEmail('rustomliquigan23@gmail.com', '8be0c1564ba1081b9eb340c03b5ecc46')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->sendResetCode()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-17 15:20:45 --> require(C:\laragon\www\Colegio_de_PuertoGalera\app\ThirdParty/PHPMailer/Exception.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\SigninController.php on line 146.
+ 1 APPPATH\Controllers\SigninController.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\ThirdParty/PHPMailer/Exception.php): Failed to open stream: No such file or directory', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Controllers\\SigninController.php', 146)
+ 2 APPPATH\Controllers\SigninController.php(146): require()
+ 3 APPPATH\Controllers\SigninController.php(105): App\Controllers\SigninController->sendEmail('rustomliquigan23@gmail.com', '6b2e71a4d9fabaccd1621efce95576da')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->sendResetCode()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-17 15:23:53 --> require(C:\laragon\www\Colegio_de_PuertoGalera\app\ThirdParty/PHPMailer/Exception.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\SigninController.php on line 146.
+ 1 APPPATH\Controllers\SigninController.php(146): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\ThirdParty/PHPMailer/Exception.php): Failed to open stream: No such file or directory', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Controllers\\SigninController.php', 146)
+ 2 APPPATH\Controllers\SigninController.php(146): require()
+ 3 APPPATH\Controllers\SigninController.php(105): App\Controllers\SigninController->sendEmail('rustomliquigan23@gmail.com', '5ab0809c759d5ffd83c92c250f668544')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->sendResetCode()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-17 15:57:34 --> Call to undefined method App\Models\UserModel::updateVerificationCode
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\SigninController.php(114): CodeIgniter\Model->__call('updateVerificationCode', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->sendResetCode()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-17 16:05:14 --> Call to undefined method App\Models\UserModel::updateVerificationCode
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\SigninController.php(116): CodeIgniter\Model->__call('updateVerificationCode', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->sendResetCode()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')

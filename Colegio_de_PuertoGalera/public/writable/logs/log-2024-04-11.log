@@ -1,0 +1,398 @@
+CRITICAL - 2024-04-11 16:04:27 --> Call to undefined method App\Models\UserModel::verifyVerificationCode
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\SigninController.php(31): CodeIgniter\Model->__call('verifyVerificationCode', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->loginAuth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:05:43 --> Call to undefined method App\Models\UserModel::verifyVerificationCode
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\SigninController.php(31): CodeIgniter\Model->__call('verifyVerificationCode', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->loginAuth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:06:22 --> Call to undefined method App\Models\UserModel::verifyVerificationCode
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\SigninController.php(31): CodeIgniter\Model->__call('verifyVerificationCode', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->loginAuth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:07:12 --> Undefined array key "verified"
+in APPPATH\Models\UserModel.php on line 46.
+ 1 APPPATH\Models\UserModel.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "verified"', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Models\\UserModel.php', 46)
+ 2 APPPATH\Controllers\SigninController.php(25): App\Models\UserModel->isEmailVerified('rustomliquigan23@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->loginAuth()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:07:51 --> Call to undefined method App\Models\UserModel::isEmailVerified
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\SigninController.php(25): CodeIgniter\Model->__call('isEmailVerified', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->loginAuth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:08:00 --> Call to undefined method App\Models\UserModel::isEmailVerified
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\SigninController.php(25): CodeIgniter\Model->__call('isEmailVerified', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->loginAuth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:09:37 --> Call to undefined method App\Models\UserModel::verifyVerificationCode
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\SigninController.php(31): CodeIgniter\Model->__call('verifyVerificationCode', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->loginAuth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:10:42 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\VerificationController.php(25): CodeIgniter\Model->update('90', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VerificationController->verify()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VerificationController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:15:11 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\VerificationController.php(25): CodeIgniter\Model->update('90', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VerificationController->verify()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VerificationController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:15:15 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\VerificationController.php(25): CodeIgniter\Model->update('90', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VerificationController->verify()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VerificationController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:18:23 --> Call to undefined method App\Models\UserModel::verifyVerificationCode
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\SigninController.php(31): CodeIgniter\Model->__call('verifyVerificationCode', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->loginAuth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:19:56 --> Undefined array key "verified"
+in APPPATH\Models\UserModel.php on line 46.
+ 1 APPPATH\Models\UserModel.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "verified"', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Models\\UserModel.php', 46)
+ 2 APPPATH\Controllers\SigninController.php(25): App\Models\UserModel->isEmailVerified('rustomliquigan23@gmail.com')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->loginAuth()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:20:27 --> Call to undefined method App\Models\UserModel::verifyVerificationCode
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\SigninController.php(31): CodeIgniter\Model->__call('verifyVerificationCode', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->loginAuth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:20:34 --> Call to undefined method App\Models\UserModel::verifyVerificationCode
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\SigninController.php(31): CodeIgniter\Model->__call('verifyVerificationCode', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->loginAuth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:20:41 --> Call to undefined method App\Models\UserModel::verifyVerificationCode
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\SigninController.php(31): CodeIgniter\Model->__call('verifyVerificationCode', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->loginAuth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:21:17 --> Call to undefined method App\Models\UserModel::verifyVerificationCode
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\SigninController.php(31): CodeIgniter\Model->__call('verifyVerificationCode', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->loginAuth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:23:27 --> Call to undefined method App\Models\UserModel::verifyVerificationCode
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\SigninController.php(31): CodeIgniter\Model->__call('verifyVerificationCode', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->loginAuth()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:27:52 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\VerificationController.php(25): CodeIgniter\Model->update('93', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VerificationController->verify()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VerificationController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:27:59 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\VerificationController.php(25): CodeIgniter\Model->update('93', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VerificationController->verify()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VerificationController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:29:35 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\VerificationController.php(25): CodeIgniter\Model->update('93', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VerificationController->verify()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VerificationController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:29:38 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\VerificationController.php(25): CodeIgniter\Model->update('93', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VerificationController->verify()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VerificationController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:30:19 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\VerificationController.php(25): CodeIgniter\Model->update('93', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VerificationController->verify()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VerificationController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:30:37 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\VerificationController.php(25): CodeIgniter\Model->update('93', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VerificationController->verify()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VerificationController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:30:46 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\VerificationController.php(25): CodeIgniter\Model->update('93', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VerificationController->verify()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VerificationController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:31:52 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\VerificationController.php(25): CodeIgniter\Model->update('93', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VerificationController->verify()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VerificationController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:32:07 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\VerificationController.php(25): CodeIgniter\Model->update('93', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VerificationController->verify()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VerificationController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:32:55 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\VerificationController.php(25): CodeIgniter\Model->update('93', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VerificationController->verify()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VerificationController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:34:52 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\VerificationController.php(25): CodeIgniter\Model->update('93', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VerificationController->verify()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VerificationController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:35:43 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\VerificationController.php(25): CodeIgniter\Model->update('93', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VerificationController->verify()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VerificationController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:39:15 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\VerificationController.php(25): CodeIgniter\Model->update('93', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VerificationController->verify()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VerificationController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:40:42 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\VerificationController.php(25): CodeIgniter\Model->update('93', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VerificationController->verify()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VerificationController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:41:19 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\VerificationController.php(25): CodeIgniter\Model->update('93', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VerificationController->verify()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VerificationController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:42:21 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\VerificationController.php(25): CodeIgniter\Model->update('94', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VerificationController->verify()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VerificationController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 16:43:15 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 930.
+ 1 SYSTEMPATH\BaseModel.php(930): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\VerificationController.php(25): CodeIgniter\Model->update('94', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\VerificationController->verify()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VerificationController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 17:20:57 --> Undefined variable $showModal
+in APPPATH\Views\login-register\signin.php on line 141.
+ 1 APPPATH\Views\login-register\signin.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $showModal', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\signin.php', 141)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\signin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/signin', [], true)
+ 5 APPPATH\Controllers\SigninController.php(13): view('login-register/signin')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 17:21:49 --> Undefined variable $showModal
+in APPPATH\Views\login-register\signin.php on line 141.
+ 1 APPPATH\Views\login-register\signin.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $showModal', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\signin.php', 141)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\signin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/signin', [], true)
+ 5 APPPATH\Controllers\SigninController.php(13): view('login-register/signin')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 17:23:05 --> Undefined variable $showModal
+in APPPATH\Views\login-register\signin.php on line 141.
+ 1 APPPATH\Views\login-register\signin.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $showModal', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\signin.php', 141)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\signin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/signin', [], true)
+ 5 APPPATH\Controllers\SigninController.php(13): view('login-register/signin')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 17:23:06 --> Undefined variable $showModal
+in APPPATH\Views\login-register\signin.php on line 141.
+ 1 APPPATH\Views\login-register\signin.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $showModal', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\signin.php', 141)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\signin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/signin', [], true)
+ 5 APPPATH\Controllers\SigninController.php(13): view('login-register/signin')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 17:23:51 --> Undefined variable $showModal
+in APPPATH\Views\login-register\signin.php on line 141.
+ 1 APPPATH\Views\login-register\signin.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $showModal', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\signin.php', 141)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\signin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/signin', [], true)
+ 5 APPPATH\Controllers\SigninController.php(13): view('login-register/signin')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 17:23:53 --> Undefined variable $showModal
+in APPPATH\Views\login-register\signin.php on line 141.
+ 1 APPPATH\Views\login-register\signin.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $showModal', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\signin.php', 141)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\signin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/signin', [], true)
+ 5 APPPATH\Controllers\SigninController.php(13): view('login-register/signin')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-11 17:24:15 --> Undefined variable $showModal
+in APPPATH\Views\login-register\signin.php on line 141.
+ 1 APPPATH\Views\login-register\signin.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $showModal', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\signin.php', 141)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\signin.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/signin', [], true)
+ 5 APPPATH\Controllers\SigninController.php(13): view('login-register/signin')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\SigninController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SigninController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')

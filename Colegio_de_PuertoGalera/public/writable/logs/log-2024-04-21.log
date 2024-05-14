@@ -1,0 +1,71 @@
+CRITICAL - 2024-04-21 04:50:36 --> Class "App\Controllers\ApplicationFormModel" not found
+in APPPATH\Controllers\ProfileController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProfileController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProfileController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-21 05:10:11 --> Undefined property: App\Controllers\UserController::$session
+in APPPATH\Controllers\UserController.php on line 11.
+ 1 APPPATH\Controllers\UserController.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\UserController::$session', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Controllers\\UserController.php', 11)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-21 05:11:17 --> Class "App\Controllers\Services" not found
+in APPPATH\Controllers\UserController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\UserController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-21 05:11:19 --> Class "App\Controllers\Services" not found
+in APPPATH\Controllers\UserController.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(891): App\Controllers\UserController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(485): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-21 05:11:57 --> Invalid file: "profile_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile_view.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('profile_view', [], true)
+ 3 APPPATH\Controllers\UserController.php(22): view('profile_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-21 05:11:57 --> Invalid file: "profile_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile_view.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('profile_view', [], true)
+ 3 APPPATH\Controllers\UserController.php(22): view('profile_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-21 05:11:59 --> Invalid file: "profile_view.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('profile_view.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('profile_view', [], true)
+ 3 APPPATH\Controllers\UserController.php(22): view('profile_view', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
+CRITICAL - 2024-04-21 05:12:23 --> Undefined variable $user
+in APPPATH\Views\login-register\profile_view.php on line 90.
+ 1 APPPATH\Views\login-register\profile_view.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\profile_view.php', 90)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Views\\login-register\\profile_view.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('login-register/profile_view', [], true)
+ 5 APPPATH\Controllers\UserController.php(22): view('login-register/profile_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\UserController->profile()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')

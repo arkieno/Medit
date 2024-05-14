@@ -1,0 +1,12 @@
+CRITICAL - 2024-05-06 03:45:07 --> Undefined variable $faculty
+in APPPATH\Controllers\FacultyController.php on line 32.
+ 1 APPPATH\Controllers\FacultyController.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $faculty', 'C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Controllers\\FacultyController.php', 32)
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(306): include_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Controllers\\FacultyController.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\Colegio_de_PuertoGalera\\app\\Controllers\\FacultyController.php')
+ 4 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\FacultyController')
+ 5 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\FacultyController')
+ 6 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\FacultyController', true)
+ 7 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\Colegio_de_PuertoGalera\\public\\index.php')
